@@ -1,0 +1,7 @@
+
+"#view_lottie": {
+	file: '/lottie/sample_lottie_1.json',
+	width : 300,
+    height : 300,
+    loop : true
+}

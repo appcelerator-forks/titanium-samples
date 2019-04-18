@@ -1,0 +1,7 @@
+
+".image-view": {
+    bottom : 20,
+    image: '/images/wheel.png',
+    height: 300,
+    width: 300
+}

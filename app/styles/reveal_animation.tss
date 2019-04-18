@@ -1,0 +1,49 @@
+
+".fab-icon": {
+    right: 16,
+    bottom: 16,
+    height: 56,
+    width: 56,
+    backgroundColor: '#608bf7',
+    borderRadius: 28,
+    borderWidth: 0,
+    elevation: 7
+}
+
+"#revealView": {
+    visible: false,
+    backgroundColor: "transparent"
+}
+
+"#mainView": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    backgroundColor: '#e046a6'
+}
+
+"#picker": {
+    left: 20,
+    right: 20,
+    backgroundColor: '#58e6dd',
+    height: 44
+}
+
+".plus-icon": {
+    includeFontPadding: false,
+    font: {
+        fontSize: 44,
+        fontWeight: 'light'
+    },
+    text: '+',
+    color: "white",
+    touchEnabled: false
+}
+
+".hello-label": {
+    font: {
+        fontSize: 40
+    },
+    text: 'Titanium Rocks!',
+    color: "white",
+    touchEnabled: false
+}

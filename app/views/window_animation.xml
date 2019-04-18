@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="win" title="Window Animation">
+        <ActionBar platform="android" onHomeIconItemSelected="close" />
+
+        <ImageView id="im1" transitionName="wowww" class="image-view" />
+
+        <Button onClick="openWindow">Open New Window</Button>
+    </Window>
+</Alloy>

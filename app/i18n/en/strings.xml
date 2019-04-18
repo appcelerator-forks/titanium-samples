@@ -1,0 +1,8 @@
+<resources>
+    <string name='button1'>Button 11</string>
+    <string name='button2'>Button 2</string>
+	<string name="en_ar_label">This is an Enlgish text</string>
+	<string name="alert_en_ar">Your language is English</string>
+	<string name="lang_demo_desc">New window opening transition animation is from right-to-left in English language.\n\nBut it should be left-to-right in Arabic language which it is not.\n\nAlso the back-arrow icon should be on different sides in both language.\n\nSo it's a bug on iOS also.</string>
+    <string name="completed_question">You have answered {n} wrong out of {n} questions</string>
+</resources>

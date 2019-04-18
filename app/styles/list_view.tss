@@ -1,0 +1,21 @@
+
+"#listView": {
+    backgroundColor: "white",
+    defaultItemTemplate: 'template',
+    separatorHeight: 2
+}
+
+".label": {
+    touchEnabled: false,
+    color: "#1fa9b6",
+    left: 14,
+    right: 14,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    maxLines: 2,
+    font: {
+        fontSize: 17,
+        fontFamily: 'GoogleSans-Regular'
+    },
+}
+
+".row": { height: 60 }

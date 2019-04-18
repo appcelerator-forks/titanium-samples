@@ -1,0 +1,16 @@
+<Alloy>
+    <ListView id="listView">
+        <Templates>
+            <ItemTemplate class="row" name="template">
+                <Label bindId="label" class="label" />
+            </ItemTemplate>
+        </Templates>
+
+        <ListSection>
+            <ListItem itemId="lottie_views" label:text="Lottie Animations" />
+
+            <ListItem platform="android" itemId="reveal_animation" label:text="Reveal Animations" />
+            <ListItem platform="android" itemId="window_animation" label:text="Window Animation" />
+        </ListSection>
+    </ListView>
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+    <NavigationWindow id="win" platform="ios">
+        <Window>
+            <Require id="listViewController" src="/list_view" />
+        </Window>
+    </NavigationWindow>
+
+    <Window id="win" platform="android">
+        <Require id="listViewController" src="/list_view" />
+    </Window>
+</Alloy>

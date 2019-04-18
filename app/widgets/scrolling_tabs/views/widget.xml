@@ -1,0 +1,9 @@
+<Alloy>
+	
+	 <ScrollView id="scrollView" width="100%"  layout="horizontal" scrollingEnabled="false" >
+        
+                <View id="segmentedView" class="segmentedViewClass"></View>
+            
+    </ScrollView>
+	
+</Alloy>

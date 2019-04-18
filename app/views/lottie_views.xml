@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="win" title="Lottie Animations">
+        <ActionBar onHomeIconItemSelected="close" />
+
+        <LottieView id="view_lottie" module="ti.animation" method='createAnimationView' />
+    </Window>
+</Alloy>

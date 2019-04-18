@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="window" platform="ios">
+		<View id="VIEW_CONTAINER">
+			<View id="view" onClick="hide">
+				<Label id="label" />
+			</View>
+		</View>
+	</Window>
+
+	<Notification id="notification" class="nlFokkezbToast_notification" platform="android" />
+</Alloy>

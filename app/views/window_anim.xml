@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="win" title="Animation Complete">
+        <ActionBar platform="android" onHomeIconItemSelected="close" />
+
+        <ImageView id="im2" transitionName="wowww" class="image-view" />
+    </Window>
+</Alloy>

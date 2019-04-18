@@ -1,0 +1,41 @@
+"#window": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    bottom: 0,
+    backgroundColor : "transparent",
+    backgroundImage : null,
+    opacity: 0
+}
+
+"#VIEW_CONTAINER" : {
+   width : Ti.UI.SIZE,
+   height: Ti.UI.SIZE,
+}
+
+"#view": {
+    top : 10,
+    bottom : 10,
+    right : 10,
+    left : 10,
+    width : Ti.UI.SIZE,
+    height : Ti.UI.SIZE,
+    backgroundColor : "black",
+    borderRadius : 16,
+    viewShadowOffset: {x:1,y:1},
+    viewShadowColor: "#777",
+}
+
+
+"#label": {
+    top : 7,
+    bottom : 7,
+    right : 7,
+    left : 7,
+    width : Ti.UI.SIZE,
+    height : Ti.UI.SIZE,
+    color: "white",
+    font: {
+        fontSize: 15
+    },
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}

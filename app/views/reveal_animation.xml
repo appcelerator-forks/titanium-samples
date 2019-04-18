@@ -1,0 +1,27 @@
+<Alloy>
+    <Window id="win" title="Reveal Animation" onPostlayout="getWindowDimensions">
+        <ActionBar platform="android" onHomeIconItemSelected="close" />
+
+        <View>
+            <Picker id="picker" onChange="changeAnimationCorner">
+                <Column>
+                    <Row title="Reveal from Center"></Row>
+                    <Row title="Reveal from Top Left"></Row>
+                    <Row title="Reveal from Top Right"></Row>
+                    <Row title="Reveal from Bottom Right"></Row>
+                    <Row title="Reveal from Bottom Left"></Row>
+                </Column>
+            </Picker>
+        </View>
+
+        <View id="revealView">
+            <View id="mainView">
+                <Label class="hello-label" />
+            </View>
+        </View>
+
+        <CardView ns="Ti.UI.Android" platform="android" class="fab-icon" onClick="revealMainView">
+            <Label class="plus-icon" />
+        </CardView>
+    </Window>
+</Alloy>

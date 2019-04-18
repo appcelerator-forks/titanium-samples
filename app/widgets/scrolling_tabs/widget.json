@@ -1,0 +1,14 @@
+{
+	"id": "scrolling_tabs",
+	"name": "scrolling_tabs",
+	"description" : "An Alloy widget for segmented control /Tab Bars component in Appcelerator Titanium.",
+	"author": "Bhushankumar Pawar",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"Apache License, Version 2.0",
+	"min-alloy-version": "1.9.11",
+	"min-titanium-version":"6.0",
+	"tags":"Cross-platform, tabbed bar, tab bar, segmented control, segmented_control, segmentedControl, Segmented Controls",
+	"platforms":"android,ios"
+}
+

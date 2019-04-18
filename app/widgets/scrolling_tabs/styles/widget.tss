@@ -1,0 +1,41 @@
+".segmentedViewClass":{
+	layout: "horizontal"
+}//end of segmentedViewClass
+
+".segmentLabelClass":{
+	color: "#006BA3",
+	font: {
+		fontSize: "14sp"
+	}
+}//end of optionLabelClass
+
+".segmentVerticalLineViewClass":{
+	height: Titanium.UI.FILL,
+	width: "1dp",
+	backgroundColor: "#006BA3",
+	right: "0"
+}
+
+".normalFont":{
+	font: {
+		fontSize: "14sp",
+		fontWeight: 'normal'
+	}
+}
+".boldFont":{
+	font: {
+		fontSize: "14sp",
+		fontWeight: 'bold'
+	}
+}
+
+
+
+".segmentHorizontalLineViewClass":{
+	height: "5dp",
+	width: Titanium.UI.FILL,
+	backgroundColor: "#006BA3",
+	left: "0dp",
+	bottom: "0dp",
+	visible: false
+}

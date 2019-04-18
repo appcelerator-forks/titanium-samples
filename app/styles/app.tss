@@ -1,0 +1,54 @@
+"Window[platform=ios]": {
+	backButtonTitle: "  ",
+	backgroundColor : "#eaeaea",
+	navTintColor : 'white',
+	translucent: false,
+	barColor : "#ffbc77",
+	largeTitleEnabled : false,
+	titleAttributes:  {
+        color : 'black',
+        font : {
+			fontFamily:'Gurmukhi MN', fontSize:30, fontWeight: 'bold'
+		},
+        shadow : {
+			color : '#aaffffff',
+			offset : { width:1, height:1 }
+		}
+    }
+	// largeTitleDisplayMode : Titanium.UI.iOS.LARGE_TITLE_DISPLAY_MODE_ALWAYS
+}
+
+"Window[platform=android]": {
+	backgroundColor : "#eaeaea",
+	theme: "MainAppTheme",
+	extendSafeArea : true
+}
+
+"ActionBar[platform=android]": {
+    displayHomeAsUp: true
+}
+
+'Button[platform=ios]': {
+    backgroundColor: "#990566",
+    width: '70%',
+    height: 30,
+    borderRadius: 15,
+    color: "white",
+    bottom: 15,
+}
+
+'Button[platform=android]': {
+    color: "white",
+    bottom: 15,
+	height:Ti.UI.SIZE
+}
+
+"TableViewRow": {
+    height: 50
+}
+
+
+".row": {
+    height: 60,
+    width: Ti.UI.FILL
+}
